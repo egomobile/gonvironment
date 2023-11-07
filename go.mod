@@ -1,3 +1,3 @@
-module github.com/zulfiqarjunejo/gonvironment
+module github.com/egomobile/gonvironment
 
 go 1.20

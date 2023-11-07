@@ -3,6 +3,7 @@
 `gonvironment` is a Go package that simplifies the process of initializing Go struct values with environment variables. It allows you to specify required environment variables and optionally include additional ones to populate the fields of a struct.
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
@@ -14,7 +15,7 @@
 To use `gonvironment` in your Go project, you can simply install it using `go get`:
 
 ```shell
-go get github.com/zulfiqarjunejo/gonvironment
+go get github.com/egomobile/gonvironment
 ```
 
 ## Usage
@@ -25,7 +26,7 @@ To use `gonvironment`, follow these steps:
 
 ```go
 import (
-    "github.com/zulfiqarjunejo/gonvironment"
+    "github.com/egomobile/gonvironment"
 )
 ```
 
@@ -57,7 +58,7 @@ package main
 import (
     "fmt"
     "os"
-    "github.com/zulfiqarjunejo/gonvironment"
+    "github.com/egomobile/gonvironment"
 )
 
 type MyConfig struct {
@@ -89,4 +90,4 @@ In this example, the MyConfig struct is initialized with values from environment
 
 ## Contribution
 
-Please contact me at zulfiqarjunejo@live.com or open issues in this repository.
+First [open an issue](https://github.com/egomobile/gonvironment/issues) in this repository.
